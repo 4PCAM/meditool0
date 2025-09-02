@@ -1,0 +1,992 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sroto Dusti Assessment - 4-PCAM</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🌊 COMPLETE SROTO DUSTI ASSESSMENT</h1>
+            <p><strong>PILLAR 4 of 4-PCAM</strong></p>
+            <p>All 15 Classical Srotas - Complete Channel System Evaluation</p>
+        </div>
+
+        <div class="content">
+            <div class="assessment-header">
+                <h3>🌊 COMPLETE 15-SROTAS ASSESSMENT</h3>
+                <p>Comprehensive evaluation of all classical body channels based on traditional lakshanas</p>
+            </div>
+
+            <div class="instructions">
+                <strong>📋 INSTRUCTIONS:</strong> This is the complete 15-srotas assessment as per classical Ayurvedic texts. Score 0-2 per symptom (0=Absent, 1=Mild, 2=Severe). Click symptoms present, then select severity. Each srotas represents a specific physiological channel system.<br>
+                <small><em>Note: Most srotas have 5 symptoms each, except some which have 6-7 symptoms based on classical texts.</em></small>
+            </div>
+
+            <div class="srotas-grid">
+                <!-- 1. PRANAVAHA SROTAS -->
+                <div class="srotas-card">
+                    <div class="srotas-header">
+                        <h4>🫁 1. PRANAVAHA SROTAS</h4>
+                        <small>(Respiratory Channels)</small>
+                    </div>
+                    <div class="srotas-content">
+                        <ul class="symptom-checklist">
+                            <li class="symptom-item" data-srotas="pranavaha" data-symptom="Ati srushta shwasam">
+                                <span>Prolonged breathing (Ati srushta shwasam)</span>
+                                <div class="severity-controls">
+                                    <button class="severity-btn" data-score="1">1</button>
+                                    <button class="severity-btn" data-score="2">2</button>
+                                </div>
+                            </li>
+                            <li class="symptom-item" data-srotas="pranavaha" data-symptom="Ati baddham">
+                                <span>Short breathing (Ati baddham)</span>
+                                <div class="severity-controls">
+                                    <button class="severity-btn" data-score="1">1</button>
+                                    <button class="severity-btn" data-score="2">2</button>
+                                </div>
+                            </li>
+                            <li class="symptom-item" data-srotas="pranavaha" data-symptom="Kupitam shwasam">
+                                <span>Difficult breathing (Kupitam shwasam)</span>
+                                <div class="severity-controls">
+                                    <button class="severity-btn" data-score="1">1</button>
+                                    <button class="severity-btn" data-score="2">2</button>
+                                </div>
+                            </li>
+                            <li class="symptom-item" data-srotas="pranavaha" data-symptom="Alpam alpam shwasam">
+                                <span>Interrupted breathing (Alpam alpam shwasam)</span>
+                                <div class="severity-controls">
+                                    <button class="severity-btn" data-score="1">1</button>
+                                    <button class="severity-btn" data-score="2">2</button>
+                                </div>
+                            </li>
+                            <li class="symptom-item" data-srotas="pranavaha" data-symptom="Abheekshnam shwasam">
+                                <span>Highly disturbed breathing (Abheekshnam shwasam)</span>
+                                <div class="severity-controls">
+                                    <button class="severity-btn" data-score="1">1</button>
+                                    <button class="severity-btn" data-score="2">2</button>
+                                </div>
+                            </li>
+                            <li class="symptom-item" data-srotas="pranavaha" data-symptom="Sa shabda shwasam">
+                                <span>Abnormal sounds in breathing (Sa shabda shwasam)</span>
+                                <div class="severity-controls">
+                                    <button class="severity-btn" data-score="1">1</button>
+                                    <button class="severity-btn" data-score="2">2</button>
+                                </div>
+                            </li>
+                            <li class="symptom-item" data-srotas="pranavaha" data-symptom="Sa shula shwasam">
+                                <span>Painful breathing (Sa shula shwasam)</span>
+                                <div class="severity-controls">
+                                    <button class="severity-btn" data-score="1">1</button>
+                                    <button class="severity-btn" data-score="2">2</button>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="srotas-score">
+                            <span class="score-value" id="pranavaha-score">0</span>
+                            Total Score
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 2. UDAKAVAHA SROTAS -->
+                <div class="srotas-card">
+                    <div class="srotas-header">
+                        <h4>💧 2. UDAKAVAHA SROTAS</h4>
+                        <small>(Water Carrying Channels)</small>
+                    </div>
+                    <div class="srotas-content">
+                        <ul class="symptom-checklist">
+                            <li class="symptom-item" data-srotas="udakavaha" data-symptom="Jihwa shosha">
+                                <span>Tongue dryness (Jihwa shosha)</span>
+                                <div class="severity-controls">
+                                    <button class="severity-btn" data-score="1">1</button>
+                                    <button class="severity-btn" data-score="2">2</button>
+                                </div>
+                            </li>
+                            <li class="symptom-item" data-srotas="udakavaha" data-symptom="Taalu shosha">
+                                <span>Palate dryness (Taalu shosha)</span>
+                                <div class="severity-controls">
+                                    <button class="severity-btn" data-score="1">1</button>
+                                    <button class="severity-btn" data-score="2">2</button>
+                                </div>
+                            </li>
+                            <li class="symptom-item" data-srotas="udakavaha" data-symptom="Oshta shosha">
+                                <span>Lip dryness (Oshta shosha)</span>
+                                <div class="severity-controls">
+                                    <button class="severity-btn" data-score="1">1</button>
+                                    <button class="severity-btn" data-score="2">2</button>
+                                </div>
+                            </li>
+                            <li class="symptom-item" data-srotas="udakavaha" data-symptom="Kantha shosha">
+                                <span>Throat dryness (Kantha shosha)</span>
+                                <div class="severity-controls">
+                                    <button class="severity-btn" data-score="1">1</button>
+                                    <button class="severity-btn" data-score="2">2</button>
+                                </div>
+                            </li>
+                            <li class="symptom-item" data-srotas="udakavaha" data-symptom="Kloma shosha">
+                                <span>Kloma dryness (Kloma shosha)</span>
+                                <div class="severity-controls">
+                                    <button class="severity-btn" data-score="1">1</button>
+                                    <button class="severity-btn" data-score="2">2</button>
+                                </div>
+                            </li>
+                            <li class="symptom-item" data-srotas="udakavaha" data-symptom="Ati pravriddam pipaasaa">
+                                <span>Severe thirst (Ati pravriddam pipaasaa)</span>
+                                <div class="severity-controls">
+                                    <button class="severity-btn" data-score="1">1</button>
+                                    <button class="severity-btn" data-score="2">2</button>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="srotas-score">
+                            <span class="score-value" id="udakavaha-score">0</span>
+                            Total Score
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 3. ANNAVAHA SROTAS -->
+                <div class="srotas-card">
+                    <div class="srotas-header">
+                        <h4>🍽️ 3. ANNAVAHA SROTAS</h4>
+                        <small>(Food Carrying Channels)</small>
+                    </div>
+                    <div class="srotas-content">
+                        <ul class="symptom-checklist">
+                            <li class="symptom-item" data-srotas="annavaha" data-symptom="Ananna abhilasha">
+                                <span>Food aversion (Ananna abhilasha)</span>
+                                <div class="severity-controls">
+                                    <button class="severity-btn" data-score="1">1</button>
+                                    <button class="severity-btn" data-score="2">2</button>
+                                </div>
+                            </li>
+                            <li class="symptom-item" data-srotas="annavaha" data-symptom="Arochaka">
+                                <span>Tastelessness (Arochaka)</span>
+                                <div class="severity-controls">
+                                    <button class="severity-btn" data-score="1">1</button>
+                                    <button class="severity-btn" data-score="2">2</button>
+                                </div>
+                            </li>
+                            <li class="symptom-item" data-srotas="annavaha" data-symptom="Avipaaka">
+                                <span>Indigestion (Avipaaka)</span>
+                                <div class="severity-controls">
+                                    <button class="severity-btn" data-score="1">1</button>
+                                    <button class="severity-btn" data-score="2">2</button>
+                                </div>
+                            </li>
+                            <li class="symptom-item" data-srotas="annavaha" data-symptom="Chardi">
+                                <span>Vomiting (Chardi)</span>
+                                <div class="severity-controls">
+                                    <button class="severity-btn" data-score="1">1</button>
+                                    <button class="severity-btn" data-score="2">2</button>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="srotas-score">
+                            <span class="score-value" id="annavaha-score">0</span>
+                            Total Score
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 4. RASAVAHA SROTAS -->
+                <div class="srotas-card">
+                    <div class="srotas-header">
+                        <h4>💧 4. RASAVAHA SROTAS</h4>
+                        <small>(Nutritional Essence Channels)</small>
+                    </div>
+                    <div class="srotas-content">
+                        <ul class="symptom-checklist">
+                            <li class="symptom-item" data-srotas="rasavaha" data-symptom="Ashraddha">
+                                <span>Lack of food interest (Ashraddha)</span>
+                                <div class="severity-controls">
+                                    <button class="severity-btn" data-score="1">1</button>
+                                    <button class="severity-btn" data-score="2">2</button>
+                                </div>
+                            </li>
+                            <li class="symptom-item" data-srotas="rasavaha" data-symptom="Aruchi">
+                                <span>Tastelessness (Aruchi)</span>
+                                <div class="severity-controls">
+                                    <button class="severity-btn" data-score="1">1</button>
+                                    <button class="severity-btn" data-score="2">2</button>
+                                </div>
+                            </li>
+                            <li class="symptom-item" data-srotas="rasavaha" data-symptom="Aasya vairasya">
+                                <span>Weird mouth taste (Aasya vairasya)</span>
+                                <div class="severity-controls">
+                                    <button class="severity-btn" data-score="1">1</button>
+                                    <button class="severity-btn" data-score="2">2</button>
+                                </div>
+                            </li>
+                            <li class="symptom-item" data-srotas="rasavaha" data-symptom="Arasagnata">
+                                <span>Taste identification failure (Arasagnata)</span>
+                                <div class="severity-controls">
+                                    <button class="severity-btn" data-score="1">1</button>
+                                    <button class="severity-btn" data-score="2">2</button>
+                                </div>
+                            </li>
+                            <li class="symptom-item" data-srotas="rasavaha" data-symptom="Hrullasa">
+                                <span>Excessive salivation (Hrullasa)</span>
+                                <div class="severity-controls">
+                                    <button class="severity-btn" data-score="1">1</button>
+                                    <button class="severity-btn" data-score="2">2</button>
+                                </div>
+                            </li>
+                            <li class="symptom-item" data-srotas="rasavaha" data-symptom="Gourava">
+                                <span>Body heaviness (Gourava)</span>
+                                <div class="severity-controls">
+                                    <button class="severity-btn" data-score="1">1</button>
+                                    <button class="severity-btn" data-score="2">2</button>
+                                </div>
+                            </li>
+                            <li class="symptom-item" data-srotas="rasavaha" data-symptom="Tandra">
+                                <span>Drowsiness (Tandra)</span>
+                                <div class="severity-controls">
+                                    <button class="severity-btn" data-score="1">1</button>
+                                    <button class="severity-btn" data-score="2">2</button>
+                                </div>
+                            </li>
+                            <li class="symptom-item" data-srotas="rasavaha" data-symptom="Angamarda">
+                                <span>Body pain (Angamarda)</span>
+                                <div class="severity-controls">
+                                    <button class="severity-btn" data-score="1">1</button>
+                                    <button class="severity-btn" data-score="2">2</button>
+                                </div>
+                            </li>
+                            <li class="symptom-item" data-srotas="rasavaha" data-symptom="Jwara">
+                                <span>Fever (Jwara)</span>
+                                <div class="severity-controls">
+                                    <button class="severity-btn" data-score="1">1</button>
+                                    <button class="severity-btn" data-score="2">2</button>
+                                </div>
+                            </li>
+                            <li class="symptom-item" data-srotas="rasavaha" data-symptom="Pandutva">
+                                <span>Anemia (Pandutva)</span>
+                                <div class="severity-controls">
+                                    <button class="severity-btn" data-score="1">1</button>
+                                    <button class="severity-btn" data-score="2">2</button>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="srotas-score">
+                            <span class="score-value" id="rasavaha-score">0</span>
+                            Total Score
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 5. RAKTAVAHA SROTAS -->
+                <div class="srotas-card">
+                    <div class="srotas-header">
+                        <h4>🩸 5. RAKTAVAHA SROTAS</h4>
+                        <small>(Blood Carrying Channels)</small>
+                    </div>
+                    <div class="srotas-content">
+                        <ul class="symptom-checklist">
+                            <li class="symptom-item" data-srotas="raktavaha" data-symptom="Guda paka">
+                                <span>Anal inflammation (Guda paka)</span>
+                                <div class="severity-controls">
+                                    <button class="severity-btn" data-score="1">1</button>
+                                    <button class="severity-btn" data-score="2">2</button>
+                                </div>
+                            </li>
+                            <li class="symptom-item" data-srotas="raktavaha" data-symptom="Medhra paaka">
+                                <span>Penis inflammation (Medhra paaka)</span>
+                                <div class="severity-controls">
+                                    <button class="severity-btn" data-score="1">1</button>
+                                    <button class="severity-btn" data-score="2">2</button>
+                                </div>
+                            </li>
+                            <li class="symptom-item" data-srotas="raktavaha" data-symptom="Aasya paaka">
+                                <span>Mouth ulceration (Aasya paaka)</span>
+                                <div class="severity-controls">
+                                    <button class="severity-btn" data-score="1">1</button>
+                                    <button class="severity-btn" data-score="2">2</button>
+                                </div>
+                            </li>
+                            <li class="symptom-item" data-srotas="raktavaha" data-symptom="Pleehaa">
+                                <span>Spleen enlargement (Pleehaa)</span>
+                                <div class="severity-controls">
+                                    <button class="severity-btn" data-score="1">1</button>
+                                    <button class="severity-btn" data-score="2">2</button>
+                                </div>
+                            </li>
+                            <li class="symptom-item" data-srotas="raktavaha" data-symptom="Gulmo">
+                                <span>Abdominal tumours (Gulmo)</span>
+                                <div class="severity-controls">
+                                    <button class="severity-btn" data-score="1">1</button>
+                                    <button class="severity-btn" data-score="2">2</button>
+                                </div>
+                            </li>
+                            <li class="symptom-item" data-srotas="raktavaha" data-symptom="Vidradhi">
+                                <span>Abscess (Vidradhi)</span>
+                                <div class="severity-controls">
+                                    <button class="severity-btn" data-score="1">1</button>
+                                    <button class="severity-btn" data-score="2">2</button>
+                                </div>
+                            </li>
+                            <li class="symptom-item" data-srotas="raktavaha" data-symptom="Neelikaa">
+                                <span>Bluish eruptions (Neelikaa)</span>
+                                <div class="severity-controls">
+                                    <button class="severity-btn" data-score="1">1</button>
+                                    <button class="severity-btn" data-score="2">2</button>
+                                </div>
+                            </li>
+                            <li class="symptom-item" data-srotas="raktavaha" data-symptom="Kamala">
+                                <span>Jaundice (Kamala)</span>
+                                <div class="severity-controls">
+                                    <button class="severity-btn" data-score="1">1</button>
+                                    <button class="severity-btn" data-score="2">2</button>
+                                </div>
+                            </li>
+                            <li class="symptom-item" data-srotas="raktavaha" data-symptom="Vyangaha piplavaha">
+                                <span>Pigmentation disorders (Vyangaha piplavaha)</span>
+                                <div class="severity-controls">
+                                    <button class="severity-btn" data-score="1">1</button>
+                                    <button class="severity-btn" data-score="2">2</button>
+                                </div>
+                            </li>
+                            <li class="symptom-item" data-srotas="raktavaha" data-symptom="Dadruhu">
+                                <span>Ringworm (Dadruhu)</span>
+                                <div class="severity-controls">
+                                    <button class="severity-btn" data-score="1">1</button>
+                                    <button class="severity-btn" data-score="2">2</button>
+                                </div>
+                            </li>
+                            <li class="symptom-item" data-srotas="raktavaha" data-symptom="Charmadalam">
+                                <span>Excoriation (Charmadalam)</span>
+                                <div class="severity-controls">
+                                    <button class="severity-btn" data-score="1">1</button>
+                                    <button class="severity-btn" data-score="2">2</button>
+                                </div>
+                            </li>
+                            <li class="symptom-item" data-srotas="raktavaha" data-symptom="Shvitram">
+                                <span>Leukoderma (Shvitram)</span>
+                                <div class="severity-controls">
+                                    <button class="severity-btn" data-score="1">1</button>
+                                    <button class="severity-btn" data-score="2">2</button>
+                                </div>
+                            </li>
+                            <li class="symptom-item" data-srotas="raktavaha" data-symptom="Paamaa">
+                                <span>Scabies (Paamaa)</span>
+                                <div class="severity-controls">
+                                    <button class="severity-btn" data-score="1">1</button>
+                                    <button class="severity-btn" data-score="2">2</button>
+                                </div>
+                            </li>
+                            <li class="symptom-item" data-srotas="raktavaha" data-symptom="Kotha">
+                                <span>Skin eruptions (Kotha)</span>
+                                <div class="severity-controls">
+                                    <button class="severity-btn" data-score="1">1</button>
+                                    <button class="severity-btn" data-score="2">2</button>
+                                </div>
+                            </li>
+                            <li class="symptom-item" data-srotas="raktavaha" data-symptom="Asra mandalam">
+                                <span>Red circular patches (Asra mandalam)</span>
+                                <div class="severity-controls">
+                                    <button class="severity-btn" data-score="1">1</button>
+                                    <button class="severity-btn" data-score="2">2</button>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="srotas-score">
+                            <span class="score-value" id="raktavaha-score">0</span>
+                            Total Score
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 6. MAMSAVAHA SROTAS -->
+                <div class="srotas-card">
+                    <div class="srotas-header">
+                        <h4>💪 6. MAMSAVAHA SROTAS</h4>
+                        <small>(Muscle Tissue Channels)</small>
+                    </div>
+                    <div class="srotas-content">
+                        <ul class="symptom-checklist">
+                            <li class="symptom-item" data-srotas="mamsavaha" data-symptom="Adhi maamsa">
+                                <span>Excessive muscle growth (Adhi maamsa)</span>
+                                <div class="severity-controls">
+                                    <button class="severity-btn" data-score="1">1</button>
+                                    <button class="severity-btn" data-score="2">2</button>
+                                </div>
+                            </li>
+                            <li class="symptom-item" data-srotas="mamsavaha" data-symptom="Arbudam">
+                                <span>Tumours (Arbudam)</span>
+                                <div class="severity-controls">
+                                    <button class="severity-btn" data-score="1">1</button>
+                                    <button class="severity-btn" data-score="2">2</button>
+                                </div>
+                            </li>
+                            <li class="symptom-item" data-srotas="mamsavaha" data-symptom="Keelam">
+                                <span>Tonsillitis (Keelam)</span>
+                                <div class="severity-controls">
+                                    <button class="severity-btn" data-score="1">1</button>
+                                    <button class="severity-btn" data-score="2">2</button>
+                                </div>
+                            </li>
+                            <li class="symptom-item" data-srotas="mamsavaha" data-symptom="Gala shaalooka">
+                                <span>Adenoids (Gala shaalooka)</span>
+                                <div class="severity-controls">
+                                    <button class="severity-btn" data-score="1">1</button>
+                                    <button class="severity-btn" data-score="2">2</button>
+                                </div>
+                            </li>
+                            <li class="symptom-item" data-srotas="mamsavaha" data-symptom="Gala shundike">
+                                <span>Elongated uvula (Gala shundike)</span>
+                                <div class="severity-controls">
+                                    <button class="severity-btn" data-score="1">1</button>
+                                    <button class="severity-btn" data-score="2">2</button>
+                                </div>
+                            </li>
+                            <li class="symptom-item" data-srotas="mamsavaha" data-symptom="Pooti maamsa">
+                                <span>Muscle necrosis (Pooti maamsa)</span>
+                                <div class="severity-controls">
+                                    <button class="severity-btn" data-score="1">1</button>
+                                    <button class="severity-btn" data-score="2">2</button>
+                                </div>
+                            </li>
+                            <li class="symptom-item" data-srotas="mamsavaha" data-symptom="Galaganda">
+                                <span>Goitre (Galaganda)</span>
+                                <div class="severity-controls">
+                                    <button class="severity-btn" data-score="1">1</button>
+                                    <button class="severity-btn" data-score="2">2</button>
+                                </div>
+                            </li>
+                            <li class="symptom-item" data-srotas="mamsavaha" data-symptom="Gandamala">
+                                <span>Cervical lymphadenitis (Gandamala)</span>
+                                <div class="severity-controls">
+                                    <button class="severity-btn" data-score="1">1</button>
+                                    <button class="severity-btn" data-score="2">2</button>
+                                </div>
+                            </li>
+                            <li class="symptom-item" data-srotas="mamsavaha" data-symptom="Upajihwikaa">
+                                <span>Epiglottitis (Upajihwikaa)</span>
+                                <div class="severity-controls">
+                                    <button class="severity-btn" data-score="1">1</button>
+                                    <button class="severity-btn" data-score="2">2</button>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="srotas-score">
+                            <span class="score-value" id="mamsavaha-score">0</span>
+                            Total Score
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 7. MEDAVAHA SROTAS -->
+                <div class="srotas-card">
+                    <div class="srotas-header">
+                        <h4>🫅 7. MEDAVAHA SROTAS</h4>
+                        <small>(Fat Tissue Channels)</small>
+                    </div>
+                    <div class="srotas-content">
+                        <ul class="symptom-checklist">
+                            <li class="symptom-item" data-srotas="medavaha" data-symptom="Atisthula">
+                                <span>Obesity (Atisthula)</span>
+                                <div class="severity-controls">
+                                    <button class="severity-btn" data-score="1">1</button>
+                                    <button class="severity-btn" data-score="2">2</button>
+                                </div>
+                            </li>
+                            <li class="symptom-item" data-srotas="medavaha" data-symptom="Ati krusha">
+                                <span>Emaciation (Ati krusha)</span>
+                                <div class="severity-controls">
+                                    <button class="severity-btn" data-score="1">1</button>
+                                    <button class="severity-btn" data-score="2">2</button>
+                                </div>
+                            </li>
+                            <li class="symptom-item" data-srotas="medavaha" data-symptom="Ati loma">
+                                <span>Excessive body hair (Ati loma)</span>
+                                <div class="severity-controls">
+                                    <button class="severity-btn" data-score="1">1</button>
+                                    <button class="severity-btn" data-score="2">2</button>
+                                </div>
+                            </li>
+                            <li class="symptom-item" data-srotas="medavaha" data-symptom="Aloma">
+                                <span>Lack of body hair (Aloma)</span>
+                                <div class="severity-controls">
+                                    <button class="severity-btn" data-score="1">1</button>
+                                    <button class="severity-btn" data-score="2">2</button>
+                                </div>
+                            </li>
+                            <li class="symptom-item" data-srotas="medavaha" data-symptom="Ati gaura">
+                                <span>Excessive white complexion (Ati gaura)</span>
+                                <div class="severity-controls">
+                                    <button class="severity-btn" data-score="1">1</button>
+                                    <button class="severity-btn" data-score="2">2</button>
+                                </div>
+                            </li>
+                            <li class="symptom-item" data-srotas="medavaha" data-symptom="Ati krushna">
+                                <span>Excessive dark complexion (Ati krushna)</span>
+                                <div class="severity-controls">
+                                    <button class="severity-btn" data-score="1">1</button>
+                                    <button class="severity-btn" data-score="2">2</button>
+                                </div>
+                            </li>
+                            <li class="symptom-item" data-srotas="medavaha" data-symptom="Ati deergha">
+                                <span>Gigantism (Ati deergha)</span>
+                                <div class="severity-controls">
+                                    <button class="severity-btn" data-score="1">1</button>
+                                    <button class="severity-btn" data-score="2">2</button>
+                                </div>
+                            </li>
+                            <li class="symptom-item" data-srotas="medavaha" data-symptom="Ati hrusva">
+                                <span>Dwarfism (Ati hrusva)</span>
+                                <div class="severity-controls">
+                                    <button class="severity-btn" data-score="1">1</button>
+                                    <button class="severity-btn" data-score="2">2</button>
+                                </div>
+                            </li>
+                            <li class="symptom-item" data-srotas="medavaha" data-symptom="Prameha purvarupa">
+                                <span>Diabetes symptoms (Prameha purvarupa)</span>
+                                <div class="severity-controls">
+                                    <button class="severity-btn" data-score="1">1</button>
+                                    <button class="severity-btn" data-score="2">2</button>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="srotas-score">
+                            <span class="score-value" id="medavaha-score">0</span>
+                            Total Score
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 8. ASTHIVAHA SROTAS -->
+                <div class="srotas-card">
+                    <div class="srotas-header">
+                        <h4>🦴 8. ASTHIVAHA SROTAS</h4>
+                        <small>(Bone Tissue Channels)</small>
+                    </div>
+                    <div class="srotas-content">
+                        <ul class="symptom-checklist">
+                            <li class="symptom-item" data-srotas="asthivaha" data-symptom="Adhyasthi">
+                                <span>Extra bone growth (Adhyasthi)</span>
+                                <div class="severity-controls">
+                                    <button class="severity-btn" data-score="1">1</button>
+                                    <button class="severity-btn" data-score="2">2</button>
+                                </div>
+                            </li>
+                            <li class="symptom-item" data-srotas="asthivaha" data-symptom="Adhi dantau">
+                                <span>Extra teeth growth (Adhi dantau)</span>
+                                <div class="severity-controls">
+                                    <button class="severity-btn" data-score="1">1</button>
+                                    <button class="severity-btn" data-score="2">2</button>
+                                </div>
+                            </li>
+                            <li class="symptom-item" data-srotas="asthivaha" data-symptom="Danta bheda shoola">
+                                <span>Toothache (Danta bheda shoola)</span>
+                                <div class="severity-controls">
+                                    <button class="severity-btn" data-score="1">1</button>
+                                    <button class="severity-btn" data-score="2">2</button>
+                                </div>
+                            </li>
+                            <li class="symptom-item" data-srotas="asthivaha" data-symptom="Asthi bheda shoolam">
+                                <span>Bone pain (Asthi bheda shoolam)</span>
+                                <div class="severity-controls">
+                                    <button class="severity-btn" data-score="1">1</button>
+                                    <button class="severity-btn" data-score="2">2</button>
+                                </div>
+                            </li>
+                            <li class="symptom-item" data-srotas="asthivaha" data-symptom="Vivarnataa">
+                                <span>Body discoloration (Vivarnataa)</span>
+                                <div class="severity-controls">
+                                    <button class="severity-btn" data-score="1">1</button>
+                                    <button class="severity-btn" data-score="2">2</button>
+                                </div>
+                            </li>
+                            <li class="symptom-item" data-srotas="asthivaha" data-symptom="Kesha dosha">
+                                <span>Hair disorders (Kesha dosha)</span>
+                                <div class="severity-controls">
+                                    <button class="severity-btn" data-score="1">1</button>
+                                    <button class="severity-btn" data-score="2">2</button>
+                                </div>
+                            </li>
+                            <li class="symptom-item" data-srotas="asthivaha" data-symptom="Loma dosha">
+                                <span>Body hair disorders (Loma dosha)</span>
+                                <div class="severity-controls">
+                                    <button class="severity-btn" data-score="1">1</button>
+                                    <button class="severity-btn" data-score="2">2</button>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="srotas-score">
+                            <span class="score-value" id="asthivaha-score">0</span>
+                            Total Score
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 9. MAJJAVAHA SROTAS -->
+                <div class="srotas-card">
+                    <div class="srotas-header">
+                        <h4>🧠 9. MAJJAVAHA SROTAS</h4>
+                        <small>(Bone Marrow/Nerve Channels)</small>
+                    </div>
+                    <div class="srotas-content">
+                        <ul class="symptom-checklist">
+                            <li class="symptom-item" data-srotas="majjavaha" data-symptom="Bhrama">
+                                <span>Giddiness (Bhrama)</span>
+                                <div class="severity-controls">
+                                    <button class="severity-btn" data-score="1">1</button>
+                                    <button class="severity-btn" data-score="2">2</button>
+                                </div>
+                            </li>
+                            <li class="symptom-item" data-srotas="majjavaha" data-symptom="Moorchha">
+                                <span>Fainting (Moorchha)</span>
+                                <div class="severity-controls">
+                                    <button class="severity-btn" data-score="1">1</button>
+                                    <button class="severity-btn" data-score="2">2</button>
+                                </div>
+                            </li>
+                            <li class="symptom-item" data-srotas="majjavaha" data-symptom="Ardhavabhedaka">
+                                <span>Unilateral headache (Ardhavabhedaka)</span>
+                                <div class="severity-controls">
+                                    <button class="severity-btn" data-score="1">1</button>
+                                    <button class="severity-btn" data-score="2">2</button>
+                                </div>
+                            </li>
+                            <li class="symptom-item" data-srotas="majjavaha" data-symptom="Shiroshoola">
+                                <span>Headache (Shiroshoola)</span>
+                                <div class="severity-controls">
+                                    <button class="severity-btn" data-score="1">1</button>
+                                    <button class="severity-btn" data-score="2">2</button>
+                                </div>
+                            </li>
+                            <li class="symptom-item" data-srotas="majjavaha" data-symptom="Shitapitta">
+                                <span>Cold allergy (Shitapitta)</span>
+                                <div class="severity-controls">
+                                    <button class="severity-btn" data-score="1">1</button>
+                                    <button class="severity-btn" data-score="2">2</button>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="srotas-score">
+                            <span class="score-value" id="majjavaha-score">0</span>
+                            Total Score
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 10. SHUKRAVAHA SROTAS -->
+                <div class="srotas-card">
+                    <div class="srotas-header">
+                        <h4>🌱 10. SHUKRAVAHA SROTAS</h4>
+                        <small>(Reproductive Tissue Channels)</small>
+                    </div>
+                    <div class="srotas-content">
+                        <ul class="symptom-checklist">
+                            <li class="symptom-item" data-srotas="shukravaha" data-symptom="Klibata">
+                                <span>Impotence (Klibata)</span>
+                                <div class="severity-controls">
+                                    <button class="severity-btn" data-score="1">1</button>
+                                    <button class="severity-btn" data-score="2">2</button>
+                                </div>
+                            </li>
+                            <li class="symptom-item" data-srotas="shukravaha" data-symptom="Shukra kshaya">
+                                <span>Semen deficiency (Shukra kshaya)</span>
+                                <div class="severity-controls">
+                                    <button class="severity-btn" data-score="1">1</button>
+                                    <button class="severity-btn" data-score="2">2</button>
+                                </div>
+                            </li>
+                            <li class="symptom-item" data-srotas="shukravaha" data-symptom="Vandhyatva">
+                                <span>Infertility (Vandhyatva)</span>
+                                <div class="severity-controls">
+                                    <button class="severity-btn" data-score="1">1</button>
+                                    <button class="severity-btn" data-score="2">2</button>
+                                </div>
+                            </li>
+                            <li class="symptom-item" data-srotas="shukravaha" data-symptom="Putipraja">
+                                <span>Dead child birth (Putipraja)</span>
+                                <div class="severity-controls">
+                                    <button class="severity-btn" data-score="1">1</button>
+                                    <button class="severity-btn" data-score="2">2</button>
+                                </div>
+                            </li>
+                            <li class="symptom-item" data-srotas="shukravaha" data-symptom="Garbhasrava">
+                                <span>Abortion (Garbhasrava)</span>
+                                <div class="severity-controls">
+                                    <button class="severity-btn" data-score="1">1</button>
+                                    <button class="severity-btn" data-score="2">2</button>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="srotas-score">
+                            <span class="score-value" id="shukravaha-score">0</span>
+                            Total Score
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 11. MUTRAVAHA SROTAS -->
+                <div class="srotas-card">
+                    <div class="srotas-header">
+                        <h4>💧 11. MUTRAVAHA SROTAS</h4>
+                        <small>(Urinary Channels)</small>
+                    </div>
+                    <div class="srotas-content">
+                        <ul class="symptom-checklist">
+                            <li class="symptom-item" data-srotas="mutravaha" data-symptom="Basti shoola">
+                                <span>Bladder pain (Basti shoola)</span>
+                                <div class="severity-controls">
+                                    <button class="severity-btn" data-score="1">1</button>
+                                    <button class="severity-btn" data-score="2">2</button>
+                                </div>
+                            </li>
+                            <li class="symptom-item" data-srotas="mutravaha" data-symptom="Mutra avrodha">
+                                <span>Urinary obstruction (Mutra avrodha)</span>
+                                <div class="severity-controls">
+                                    <button class="severity-btn" data-score="1">1</button>
+                                    <button class="severity-btn" data-score="2">2</button>
+                                </div>
+                            </li>
+                            <li class="symptom-item" data-srotas="mutravaha" data-symptom="Mutra atisara">
+                                <span>Frequent urination (Mutra atisara)</span>
+                                <div class="severity-controls">
+                                    <button class="severity-btn" data-score="1">1</button>
+                                    <button class="severity-btn" data-score="2">2</button>
+                                </div>
+                            </li>
+                            <li class="symptom-item" data-srotas="mutravaha" data-symptom="Mutra daha">
+                                <span>Burning urination (Mutra daha)</span>
+                                <div class="severity-controls">
+                                    <button class="severity-btn" data-score="1">1</button>
+                                    <button class="severity-btn" data-score="2">2</button>
+                                </div>
+                            </li>
+                            <li class="symptom-item" data-srotas="mutravaha" data-symptom="Ashmari">
+                                <span>Urinary stones (Ashmari)</span>
+                                <div class="severity-controls">
+                                    <button class="severity-btn" data-score="1">1</button>
+                                    <button class="severity-btn" data-score="2">2</button>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="srotas-score">
+                            <span class="score-value" id="mutravaha-score">0</span>
+                            Total Score
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 12. PURISHAVAHA SROTAS -->
+                <div class="srotas-card">
+                    <div class="srotas-header">
+                        <h4>🚽 12. PURISHAVAHA SROTAS</h4>
+                        <small>(Fecal Channels)</small>
+                    </div>
+                    <div class="srotas-content">
+                        <ul class="symptom-checklist">
+                            <li class="symptom-item" data-srotas="purishavaha" data-symptom="Vibandha">
+                                <span>Constipation (Vibandha)</span>
+                                <div class="severity-controls">
+                                    <button class="severity-btn" data-score="1">1</button>
+                                    <button class="severity-btn" data-score="2">2</button>
+                                </div>
+                            </li>
+                            <li class="symptom-item" data-srotas="purishavaha" data-symptom="Atisara">
+                                <span>Diarrhea (Atisara)</span>
+                                <div class="severity-controls">
+                                    <button class="severity-btn" data-score="1">1</button>
+                                    <button class="severity-btn" data-score="2">2</button>
+                                </div>
+                            </li>
+                            <li class="symptom-item" data-srotas="purishavaha" data-symptom="Guda shoola">
+                                <span>Anal pain (Guda shoola)</span>
+                                <div class="severity-controls">
+                                    <button class="severity-btn" data-score="1">1</button>
+                                    <button class="severity-btn" data-score="2">2</button>
+                                </div>
+                            </li>
+                            <li class="symptom-item" data-srotas="purishavaha" data-symptom="Arsha">
+                                <span>Hemorrhoids (Arsha)</span>
+                                <div class="severity-controls">
+                                    <button class="severity-btn" data-score="1">1</button>
+                                    <button class="severity-btn" data-score="2">2</button>
+                                </div>
+                            </li>
+                            <li class="symptom-item" data-srotas="purishavaha" data-symptom="Guda ganda">
+                                <span>Anal fistula (Guda ganda)</span>
+                                <div class="severity-controls">
+                                    <button class="severity-btn" data-score="1">1</button>
+                                    <button class="severity-btn" data-score="2">2</button>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="srotas-score">
+                            <span class="score-value" id="purishavaha-score">0</span>
+                            Total Score
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 13. SWEDAVAHA SROTAS -->
+                <div class="srotas-card">
+                    <div class="srotas-header">
+                        <h4>💦 13. SWEDAVAHA SROTAS</h4>
+                        <small>(Sweat Channels)</small>
+                    </div>
+                    <div class="srotas-content">
+                        <ul class="symptom-checklist">
+                            <li class="symptom-item" data-srotas="swedavaha" data-symptom="Aswedya">
+                                <span>No sweating (Aswedya)</span>
+                                <div class="severity-controls">
+                                    <button class="severity-btn" data-score="1">1</button>
+                                    <button class="severity-btn" data-score="2">2</button>
+                                </div>
+                            </li>
+                            <li class="symptom-item" data-srotas="swedavaha" data-symptom="Atiswedana">
+                                <span>Excessive sweating (Atiswedana)</span>
+                                <div class="severity-controls">
+                                    <button class="severity-btn" data-score="1">1</button>
+                                    <button class="severity-btn" data-score="2">2</button>
+                                </div>
+                            </li>
+                            <li class="symptom-item" data-srotas="swedavaha" data-symptom="Durgandha sweda">
+                                <span>Foul smelling sweat (Durgandha sweda)</span>
+                                <div class="severity-controls">
+                                    <button class="severity-btn" data-score="1">1</button>
+                                    <button class="severity-btn" data-score="2">2</button>
+                                </div>
+                            </li>
+                            <li class="symptom-item" data-srotas="swedavaha" data-symptom="Picchila sweda">
+                                <span>Sticky sweat (Picchila sweda)</span>
+                                <div class="severity-controls">
+                                    <button class="severity-btn" data-score="1">1</button>
+                                    <button class="severity-btn" data-score="2">2</button>
+                                </div>
+                            </li>
+                            <li class="symptom-item" data-srotas="swedavaha" data-symptom="Sweda viraha">
+                                <span>Sweat deficiency (Sweda viraha)</span>
+                                <div class="severity-controls">
+                                    <button class="severity-btn" data-score="1">1</button>
+                                    <button class="severity-btn" data-score="2">2</button>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="srotas-score">
+                            <span class="score-value" id="swedavaha-score">0</span>
+                            Total Score
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 14. ARTAVAVAHA SROTAS -->
+                <div class="srotas-card">
+                    <div class="srotas-header">
+                        <h4>🩸 14. ARTAVAVAHA SROTAS</h4>
+                        <small>(Menstrual Channels - Female)</small>
+                    </div>
+                    <div class="srotas-content">
+                        <ul class="symptom-checklist">
+                            <li class="symptom-item" data-srotas="artavavaha" data-symptom="Artava avrodha">
+                                <span>Amenorrhea (Artava avrodha)</span>
+                                <div class="severity-controls">
+                                    <button class="severity-btn" data-score="1">1</button>
+                                    <button class="severity-btn" data-score="2">2</button>
+                                </div>
+                            </li>
+                            <li class="symptom-item" data-srotas="artavavaha" data-symptom="Artava atipravritti">
+                                <span>Menorrhagia (Artava atipravritti)</span>
+                                <div class="severity-controls">
+                                    <button class="severity-btn" data-score="1">1</button>
+                                    <button class="severity-btn" data-score="2">2</button>
+                                </div>
+                            </li>
+                            <li class="symptom-item" data-srotas="artavavaha" data-symptom="Artava vishama">
+                                <span>Irregular menstruation (Artava vishama)</span>
+                                <div class="severity-controls">
+                                    <button class="severity-btn" data-score="1">1</button>
+                                    <button class="severity-btn" data-score="2">2</button>
+                                </div>
+                            </li>
+                            <li class="symptom-item" data-srotas="artavavaha" data-symptom="Artava daha">
+                                <span>Dysmenorrhea (Artava daha)</span>
+                                <div class="severity-controls">
+                                    <button class="severity-btn" data-score="1">1</button>
+                                    <button class="severity-btn" data-score="2">2</button>
+                                </div>
+                            </li>
+                            <li class="symptom-item" data-srotas="artavavaha" data-symptom="Artava nasha">
+                                <span>Menstrual destruction (Artava nasha)</span>
+                                <div class="severity-controls">
+                                    <button class="severity-btn" data-score="1">1</button>
+                                    <button class="severity-btn" data-score="2">2</button>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="srotas-score">
+                            <span class="score-value" id="artavavaha-score">0</span>
+                            Total Score
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 15. STANYAVAHA SROTAS -->
+                <div class="srotas-card">
+                    <div class="srotas-header">
+                        <h4>🤱 15. STANYAVAHA SROTAS</h4>
+                        <small>(Milk Channels - Female)</small>
+                    </div>
+                    <div class="srotas-content">
+                        <ul class="symptom-checklist">
+                            <li class="symptom-item" data-srotas="stanyavaha" data-symptom="Stana shoola">
+                                <span>Breast pain (Stana shoola)</span>
+                                <div class="severity-controls">
+                                    <button class="severity-btn" data-score="1">1</button>
+                                    <button class="severity-btn" data-score="2">2</button>
+                                </div>
+                            </li>
+                            <li class="symptom-item" data-srotas="stanyavaha" data-symptom="Stana avrodha">
+                                <span>Milk suppression (Stana avrodha)</span>
+                                <div class="severity-controls">
+                                    <button class="severity-btn" data-score="1">1</button>
+                                    <button class="severity-btn" data-score="2">2</button>
+                                </div>
+                            </li>
+                            <li class="symptom-item" data-srotas="stanyavaha" data-symptom="Stana atisara">
+                                <span>Excessive lactation (Stana atisara)</span>
+                                <div class="severity-controls">
+                                    <button class="severity-btn" data-score="1">1</button>
+                                    <button class="severity-btn" data-score="2">2</button>
+                                </div>
+                            </li>
+                            <li class="symptom-item" data-srotas="stanyavaha" data-symptom="Stana vidradhi">
+                                <span>Breast abscess (Stana vidradhi)</span>
+                                <div class="severity-controls">
+                                    <button class="severity-btn" data-score="1">1</button>
+                                    <button class="severity-btn" data-score="2">2</button>
+                                </div>
+                            </li>
+                            <li class="symptom-item" data-srotas="stanyavaha" data-symptom="Stana gandha">
+                                <span>Breast odor (Stana gandha)</span>
+                                <div class="severity-controls">
+                                    <button class="severity-btn" data-score="1">1</button>
+                                    <button class="severity-btn" data-score="2">2</button>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="srotas-score">
+                            <span class="score-value" id="stanyavaha-score">0</span>
+                            Total Score
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="nav-buttons">
+                <button class="btn btn-secondary" onclick="goToMain()">← Back to Main</button>
+                <button class="btn btn-primary" id="srotas-complete-btn" onclick="completeAssessment('srotas')" disabled>Complete Assessment</button>
+            </div>
+        </div>
+    </div>
+    <script src="js/srotas.js"></script>
+</body>
+</html>

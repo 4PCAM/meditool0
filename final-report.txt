@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Assessment Report - 4-PCAM</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+</head>
+<body>
+    <div class="container" id="report-container">
+        <div class="header">
+            <h1>📋 COMPREHENSIVE ASSESSMENT REPORT</h1>
+            <p><strong>4-Pillar Clinical Assessment Model (4-PCAM)</strong></p>
+            <p><strong>Developer:</strong> Dr. Smitrajsinh Jadeja, Dr. Anirudh Bhatt, Dr. Yogesh Valaki, Dr. Diksha Kanani</p>
+            <p><strong>Guided By:</strong> Dr. Prakash Kumbar</p>
+        </div>
+
+        <div class="content">
+            <div class="report-header">
+                <h3>📊 FINAL ASSESSMENT REPORT</h3>
+                <p>Complete 4-Pillar Ayurvedic Clinical Assessment</p>
+                <div id="report-date"></div>
+            </div>
+
+            <div class="patient-summary">
+                <h4>👤 Patient Information</h4>
+                <div class="patient-grid" id="patient-info">
+                    <!-- Patient info loaded here -->
+                </div>
+            </div>
+
+            <div class="assessment-sections">
+                <!-- PILLAR 1: AGNI -->
+                <div class="pillar-section">
+                    <div class="pillar-header pillar-1">
+                        <h4>🔥 PILLAR 1: AGNI DUSTI ASSESSMENT</h4>
+                    </div>
+                    <div class="pillar-content" id="agni-report">
+                        <!-- Agni report loaded here -->
+                    </div>
+                </div>
+
+                <!-- PILLAR 2: DOSHA -->
+                <div class="pillar-section">
+                    <div class="pillar-header pillar-2">
+                        <h4>⚖️ PILLAR 2: DOSHA DUSTI ASSESSMENT</h4>
+                    </div>
+                    <div class="pillar-content" id="dosha-report">
+                        <!-- Dosha report loaded here -->
+                    </div>
+                </div>
+
+                <!-- PILLAR 3: DHATU -->
+                <div class="pillar-section">
+                    <div class="pillar-header pillar-3">
+                        <h4>🧬 PILLAR 3: DHATU DUSTI ASSESSMENT</h4>
+                    </div>
+                    <div class="pillar-content" id="dhatu-report">
+                        <!-- Dhatu report loaded here -->
+                    </div>
+                </div>
+
+                <!-- PILLAR 4: SROTAS -->
+                <div class="pillar-section">
+                    <div class="pillar-header pillar-4">
+                        <h4>🌊 PILLAR 4: SROTO DUSTI ASSESSMENT</h4>
+                    </div>
+                    <div class="pillar-content" id="srotas-report">
+                        <!-- Srotas report loaded here -->
+                    </div>
+                </div>
+            </div>
+
+            <div class="clinical-summary">
+                <h4>🏥 Clinical Summary & Analysis</h4>
+                <div class="summary-grid">
+                    <div class="summary-card">
+                        <h5>🔥 Agni Status</h5>
+                        <div id="agni-summary"></div>
+                    </div>
+                    <div class="summary-card">
+                        <h5>⚖️ Dosha Dominance</h5>
+                        <div id="dosha-summary"></div>
+                    </div>
+                    <div class="summary-card">
+                        <h5>🧬 Dhatu Involvement</h5>
+                        <div id="dhatu-summary"></div>
+                    </div>
+                    <div class="summary-card">
+                        <h5>🌊 Srotas Dysfunction</h5>
+                        <div id="srotas-summary"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="recommendations">
+                <h4>💡 Clinical Recommendations</h4>
+                <ul class="recommendation-list" id="recommendations-list">
+                    <!-- Recommendations loaded here -->
+                </ul>
+            </div>
+
+            <div class="actions-section">
+                <button class="btn btn-primary" onclick="exportToPDF()">📄 Export as PDF</button>
+                <button class="btn btn-warning" onclick="printReport()">🖨️ Print Report</button>
+                <button class="btn btn-secondary" onclick="saveReport()">💾 Save Data</button>
+                <button class="btn btn-danger" onclick="resetAllData()">🔄 Reset All</button>
+                <a href="index.html" class="btn btn-secondary">← New Assessment</a>
+            </div>
+        </div>
+    </div>
+    <script src="js/report.js"></script>
+</body>
+</html>

@@ -1,0 +1,370 @@
+{
+  "agni": {
+    "parameters": [
+      {
+        "name": "Hunger",
+        "vishama": "Irregular, unpredictable",
+        "tikshna": "Excessive, frequent hunger",
+        "manda": "Poor, delayed hunger",
+        "sama": "Timely, appropriate"
+      },
+      {
+        "name": "Digestion Timing",
+        "vishama": "Sometimes fast, sometimes slow",
+        "tikshna": "Very rapid digestion",
+        "manda": "Very slow, sluggish",
+        "sama": "Timely, comfortable"
+      },
+      {
+        "name": "Stool Formation",
+        "vishama": "Alternate constipation & loose",
+        "tikshna": "Frequent, loose, burning",
+        "manda": "Constipated, sticky, mucoid",
+        "sama": "Well-formed, once/day"
+      },
+      {
+        "name": "Bloating/Discomfort",
+        "vishama": "Gas, gurgling, erratic",
+        "tikshna": "Burning sensation",
+        "manda": "Heaviness, lethargy",
+        "sama": "No discomfort"
+      },
+      {
+        "name": "Appetite Response",
+        "vishama": "Becomes erratic",
+        "tikshna": "Becomes hungrier",
+        "manda": "Becomes duller",
+        "sama": "Stays steady"
+      },
+      {
+        "name": "Tongue Coating",
+        "vishama": "Variable, sometimes dry",
+        "tikshna": "Red, yellow tinge",
+        "manda": "Thick white coating",
+        "sama": "Clean"
+      },
+      {
+        "name": "After Food Sensation",
+        "vishama": "Bloated or unsatisfied",
+        "tikshna": "Hungry again quickly",
+        "manda": "Heavy, sleepy",
+        "sama": "Light and content"
+      },
+      {
+        "name": "Weight Change",
+        "vishama": "Unpredictable",
+        "tikshna": "Weight loss despite eating",
+        "manda": "Weight gain despite eating",
+        "sama": "Maintains weight"
+      }
+    ]
+  },
+  "dosha": {
+    "parameters": [
+      {
+        "name": "Agni",
+        "vata": "Irregular, variable",
+        "pitta": "Very sharp, frequent hunger",
+        "kapha": "Poor appetite, slow digestion",
+        "nad": "Normal digestive function"
+      },
+      {
+        "name": "Mala",
+        "vata": "Constipation, dry, scanty",
+        "pitta": "Loose, yellowish, burning",
+        "kapha": "Sticky, mucus-laden, sluggish",
+        "nad": "Normal bowel movements"
+      },
+      {
+        "name": "Mutra",
+        "vata": "Scanty, frequent, obstructed",
+        "pitta": "Yellow, burning",
+        "kapha": "Increased, cloudy",
+        "nad": "Normal urination"
+      },
+      {
+        "name": "Sveda",
+        "vata": "Dry skin, no sweat",
+        "pitta": "Excessive sweating, odor",
+        "kapha": "Cold, little sweat",
+        "nad": "Normal sweating"
+      },
+      {
+        "name": "Sparsha",
+        "vata": "Rough, dry, cold skin",
+        "pitta": "Burning, warm, red skin",
+        "kapha": "Thick, oily, cold skin",
+        "nad": "Normal skin texture"
+      },
+      {
+        "name": "Bāla/Ojas",
+        "vata": "Weakness, low endurance",
+        "pitta": "Moderate stamina, irritability",
+        "kapha": "Heavy, lazy, dull",
+        "nad": "Good strength and immunity"
+      },
+      {
+        "name": "Manasika Bhava",
+        "vata": "Anxiety, worry, fear",
+        "pitta": "Anger, short-tempered",
+        "kapha": "Dullness, depression, inertia",
+        "nad": "Balanced mental state"
+      },
+      {
+        "name": "Gati/Bhrama",
+        "vata": "Fast, jerky, tremors",
+        "pitta": "Sudden shifts, burning",
+        "kapha": "Sluggish, slow, heaviness",
+        "nad": "Normal movement"
+      },
+      {
+        "name": "Roopam (External)",
+        "vata": "Thin, dry, cracked",
+        "pitta": "Red, inflamed, acne",
+        "kapha": "Puffy, moist, oily",
+        "nad": "Normal appearance"
+      },
+      {
+        "name": "Jihva (Tongue)",
+        "vata": "Dry, rough, blackish",
+        "pitta": "Red, yellow coat",
+        "kapha": "Thick, white coat",
+        "nad": "Clean tongue"
+      }
+    ]
+  },
+  "dhatu": {
+    "rasa": {
+      "kshaya": [
+        "Dry skin, mouth",
+        "Fatigue, weakness",
+        "Rough, cracked skin",
+        "Intolerance to sound"
+      ],
+      "vriddhi": [
+        "Loss of appetite",
+        "Nausea, vomiting",
+        "Excessive salivation",
+        "Heaviness, lethargy"
+      ]
+    },
+    "rakta": {
+      "kshaya": [
+        "Pallor, pale skin",
+        "Cold extremities",
+        "Collapsed veins",
+        "Desire for sour/cold"
+      ],
+      "vriddhi": [
+        "Red eyes, skin",
+        "Bleeding tendency",
+        "Skin rashes, acne",
+        "Enlarged spleen"
+      ]
+    },
+    "mamsa": {
+      "kshaya": [
+        "Muscle wasting",
+        "Thin limbs",
+        "Weakness in walking",
+        "Fatigue on exertion"
+      ],
+      "vriddhi": [
+        "Excessive muscle growth",
+        "Tumors, growths",
+        "Heavy feeling in body",
+        "Elongated limbs"
+      ]
+    },
+    "meda": {
+      "kshaya": [
+        "Excessive thinness",
+        "Dry, rough skin",
+        "Prominent veins",
+        "Enlarged spleen"
+      ],
+      "vriddhi": [
+        "Obesity",
+        "Fatty deposits",
+        "Breathlessness",
+        "Sweet taste in mouth"
+      ]
+    },
+    "asthi": {
+      "kshaya": [
+        "Joint pain",
+        "Brittle nails, hair",
+        "Loose teeth",
+        "Bone weakness"
+      ],
+      "vriddhi": [
+        "Excess bone growth",
+        "Extra teeth/bones",
+        "Bone spurs",
+        "Joint stiffness"
+      ]
+    },
+    "majja": {
+      "kshaya": [
+        "Bone pain",
+        "Dizziness",
+        "Memory loss",
+        "Joint instability"
+      ],
+      "vriddhi": [
+        "Heavy feeling in eyes",
+        "Non-healing ulcers",
+        "Joint enlargement",
+        "Excessive sleep"
+      ]
+    },
+    "shukra": {
+      "kshaya": [
+        "Delayed ejaculation",
+        "Low libido",
+        "Infertility",
+        "Fatigue after exertion"
+      ],
+      "vriddhi": [
+        "Excessive sexual desire",
+        "Premature ejaculation",
+        "Excessive body hair",
+        "Aggressive behavior"
+      ]
+    }
+  },
+  "srotas": {
+    "pranavaha": [
+      "Ati srushta shwasam",
+      "Ati baddham",
+      "Kupitam shwasam",
+      "Alpam alpam shwasam",
+      "Abheekshnam shwasam",
+      "Sa shabda shwasam",
+      "Sa shula shwasam"
+    ],
+    "udakavaha": [
+      "Jihwa shosha",
+      "Taalu shosha",
+      "Oshta shosha",
+      "Kantha shosha",
+      "Kloma shosha",
+      "Ati pravriddam pipaasaa"
+    ],
+    "annavaha": [
+      "Ananna abhilasha",
+      "Arochaka",
+      "Avipaaka",
+      "Chardi"
+    ],
+    "rasavaha": [
+      "Ashraddha",
+      "Aruchi",
+      "Aasya vairasya",
+      "Arasagnata",
+      "Hrullasa",
+      "Gourava",
+      "Tandra",
+      "Angamarda",
+      "Jwara",
+      "Pandutva"
+    ],
+    "raktavaha": [
+      "Guda paka",
+      "Medhra paaka",
+      "Aasya paaka",
+      "Pleehaa",
+      "Gulmo",
+      "Vidradhi",
+      "Neelikaa",
+      "Kamala",
+      "Vyangaha piplavaha",
+      "Dadruhu",
+      "Charmadalam",
+      "Shvitram",
+      "Paamaa",
+      "Kotha",
+      "Asra mandalam"
+    ],
+    "mamsavaha": [
+      "Adhi maamsa",
+      "Arbudam",
+      "Keelam",
+      "Gala shaalooka",
+      "Gala shundike",
+      "Pooti maamsa",
+      "Galaganda",
+      "Gandamala",
+      "Upajihwikaa"
+    ],
+    "medavaha": [
+      "Atisthula",
+      "Ati krusha",
+      "Ati loma",
+      "Aloma",
+      "Ati gaura",
+      "Ati krushna",
+      "Ati deergha",
+      "Ati hrusva",
+      "Prameha purvarupa"
+    ],
+    "asthivaha": [
+      "Adhyasthi",
+      "Adhi dantau",
+      "Danta bheda shoola",
+      "Asthi bheda shoolam",
+      "Vivarnataa",
+      "Kesha dosha",
+      "Loma dosha"
+    ],
+    "majjavaha": [
+      "Bhrama",
+      "Moorchha",
+      "Ardhavabhedaka",
+      "Shiroshoola",
+      "Shitapitta"
+    ],
+    "shukravaha": [
+      "Klibata",
+      "Shukra kshaya",
+      "Vandhyatva",
+      "Putipraja",
+      "Garbhasrava"
+    ],
+    "mutravaha": [
+      "Basti shoola",
+      "Mutra avrodha",
+      "Mutra atisara",
+      "Mutra daha",
+      "Ashmari"
+    ],
+    "purishavaha": [
+      "Vibandha",
+      "Atisara",
+      "Guda shoola",
+      "Arsha",
+      "Guda ganda"
+    ],
+    "swedavaha": [
+      "Aswedya",
+      "Atiswedana",
+      "Durgandha sweda",
+      "Picchila sweda",
+      "Sweda viraha"
+    ],
+    "artavavaha": [
+      "Artava avrodha",
+      "Artava atipravritti",
+      "Artava vishama",
+      "Artava daha",
+      "Artava nasha"
+    ],
+    "stanyavaha": [
+      "Stana shoola",
+      "Stana avrodha",
+      "Stana atisara",
+      "Stana vidradhi",
+      "Stana gandha"
+    ]
+  }
+}

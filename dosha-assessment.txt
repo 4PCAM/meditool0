@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dosha Dusti Assessment - 4-PCAM</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>⚖️ DOSHA DUSTI ASSESSMENT</h1>
+            <p><strong>PILLAR 2 of 4-PCAM</strong></p>
+            <p>Constitutional Assessment</p>
+        </div>
+
+        <div class="content">
+            <div class="assessment-header">
+                <h3>⚖️ PILLAR 2: DOSHA DUSTI ASSESSMENT</h3>
+                <p>Based on Classical Lakṣaṇas – Caraka, Suśruta, Vāgbhaṭa</p>
+            </div>
+
+            <div class="instructions">
+                <strong>📋 SCORING INSTRUCTIONS:</strong> Score 0–2 per parameter (0 = Normal, 1 = Mild, 2 = Marked Abnormality). Max 20 points per dosha.
+            </div>
+
+            <!-- DOSHA TABLE -->
+            <table class="assessment-table">
+                <thead>
+                    <tr>
+                        <th>Parameter</th>
+                        <th>Vata Duṣṭi</th>
+                        <th>Pitta Duṣṭi</th>
+                        <th>Kapha Duṣṭi</th>
+                        <th>NAD</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="parameter-cell">1. Agni</td>
+                        <td class="clickable-cell vata-cell" data-dosha="vata" data-parameter="agni" data-score="2">Irregular, variable</td>
+                        <td class="clickable-cell pitta-cell" data-dosha="pitta" data-parameter="agni" data-score="2">Very sharp, frequent hunger</td>
+                        <td class="clickable-cell kapha-cell" data-dosha="kapha" data-parameter="agni" data-score="2">Poor appetite, slow digestion</td>
+                        <td class="clickable-cell nad-cell" data-dosha="nad" data-parameter="agni" data-score="0"></td>
+                    </tr>
+                    <tr>
+                        <td class="parameter-cell">2. Mala</td>
+                        <td class="clickable-cell vata-cell" data-dosha="vata" data-parameter="mala" data-score="2">Constipation, dry, scanty</td>
+                        <td class="clickable-cell pitta-cell" data-dosha="pitta" data-parameter="mala" data-score="2">Loose, yellowish, burning</td>
+                        <td class="clickable-cell kapha-cell" data-dosha="kapha" data-parameter="mala" data-score="2">Sticky, mucus-laden, sluggish</td>
+                        <td class="clickable-cell nad-cell" data-dosha="nad" data-parameter="mala" data-score="0"></td>
+                    </tr>
+                    <tr>
+                        <td class="parameter-cell">3. Mutra</td>
+                        <td class="clickable-cell vata-cell" data-dosha="vata" data-parameter="mutra" data-score="2">Scanty, frequent, obstructed</td>
+                        <td class="clickable-cell pitta-cell" data-dosha="pitta" data-parameter="mutra" data-score="2">Yellow, burning</td>
+                        <td class="clickable-cell kapha-cell" data-dosha="kapha" data-parameter="mutra" data-score="2">Increased, cloudy</td>
+                        <td class="clickable-cell nad-cell" data-dosha="nad" data-parameter="mutra" data-score="0"></td>
+                    </tr>
+                    <tr>
+                        <td class="parameter-cell">4. Sveda</td>
+                        <td class="clickable-cell vata-cell" data-dosha="vata" data-parameter="sveda" data-score="2">Dry skin, no sweat</td>
+                        <td class="clickable-cell pitta-cell" data-dosha="pitta" data-parameter="sveda" data-score="2">Excessive sweating, odor</td>
+                        <td class="clickable-cell kapha-cell" data-dosha="kapha" data-parameter="sveda" data-score="2">Cold, little sweat</td>
+                        <td class="clickable-cell nad-cell" data-dosha="nad" data-parameter="sveda" data-score="0"></td>
+                    </tr>
+                    <tr>
+                        <td class="parameter-cell">5. Sparsha</td>
+                        <td class="clickable-cell vata-cell" data-dosha="vata" data-parameter="sparsha" data-score="2">Rough, dry, cold skin</td>
+                        <td class="clickable-cell pitta-cell" data-dosha="pitta" data-parameter="sparsha" data-score="2">Burning, warm, red skin</td>
+                        <td class="clickable-cell kapha-cell" data-dosha="kapha" data-parameter="sparsha" data-score="2">Thick, oily, cold skin</td>
+                        <td class="clickable-cell nad-cell" data-dosha="nad" data-parameter="sparsha" data-score="0"></td>
+                    </tr>
+                    <tr>
+                        <td class="parameter-cell">6. Bāla/Ojas</td>
+                        <td class="clickable-cell vata-cell" data-dosha="vata" data-parameter="bala" data-score="2">Weakness, low endurance</td>
+                        <td class="clickable-cell pitta-cell" data-dosha="pitta" data-parameter="bala" data-score="2">Moderate stamina, irritability</td>
+                        <td class="clickable-cell kapha-cell" data-dosha="kapha" data-parameter="bala" data-score="2">Heavy, lazy, dull</td>
+                        <td class="clickable-cell nad-cell" data-dosha="nad" data-parameter="bala" data-score="0"></td>
+                    </tr>
+                    <tr>
+                        <td class="parameter-cell">7. Manasika Bhava</td>
+                        <td class="clickable-cell vata-cell" data-dosha="vata" data-parameter="manasika" data-score="2">Anxiety, worry, fear</td>
+                        <td class="clickable-cell pitta-cell" data-dosha="pitta" data-parameter="manasika" data-score="2">Anger, short-tempered</td>
+                        <td class="clickable-cell kapha-cell" data-dosha="kapha" data-parameter="manasika" data-score="2">Dullness, depression, inertia</td>
+                        <td class="clickable-cell nad-cell" data-dosha="nad" data-parameter="manasika" data-score="0"></td>
+                    </tr>
+                    <tr>
+                        <td class="parameter-cell">8. Gati/Bhrama</td>
+                        <td class="clickable-cell vata-cell" data-dosha="vata" data-parameter="gati" data-score="2">Fast, jerky, tremors</td>
+                        <td class="clickable-cell pitta-cell" data-dosha="pitta" data-parameter="gati" data-score="2">Sudden shifts, burning</td>
+                        <td class="clickable-cell kapha-cell" data-dosha="kapha" data-parameter="gati" data-score="2">Sluggish, slow, heaviness</td>
+                        <td class="clickable-cell nad-cell" data-dosha="nad" data-parameter="gati" data-score="0"></td>
+                    </tr>
+                    <tr>
+                        <td class="parameter-cell">9. Roopam (External)</td>
+                        <td class="clickable-cell vata-cell" data-dosha="vata" data-parameter="roopam" data-score="2">Thin, dry, cracked</td>
+                        <td class="clickable-cell pitta-cell" data-dosha="pitta" data-parameter="roopam" data-score="2">Red, inflamed, acne</td>
+                        <td class="clickable-cell kapha-cell" data-dosha="kapha" data-parameter="roopam" data-score="2">Puffy, moist, oily</td>
+                        <td class="clickable-cell nad-cell" data-dosha="nad" data-parameter="roopam" data-score="0"></td>
+                    </tr>
+                    <tr>
+                        <td class="parameter-cell">10. Jihva (Tongue)</td>
+                        <td class="clickable-cell vata-cell" data-dosha="vata" data-parameter="jihva" data-score="2">Dry, rough, blackish</td>
+                        <td class="clickable-cell pitta-cell" data-dosha="pitta" data-parameter="jihva" data-score="2">Red, yellow coat</td>
+                        <td class="clickable-cell kapha-cell" data-dosha="kapha" data-parameter="jihva" data-score="2">Thick, white coat</td>
+                        <td class="clickable-cell nad-cell" data-dosha="nad" data-parameter="jihva" data-score="0"></td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <!-- SCORE CARDS -->
+            <div class="score-summary">
+                <div class="score-card">
+                    <h4>Vata Score</h4>
+                    <div class="score-value" id="vata-score">0</div>
+                </div>
+                <div class="score-card">
+                    <h4>Pitta Score</h4>
+                    <div class="score-value" id="pitta-score">0</div>
+                </div>
+                <div class="score-card">
+                    <h4>Kapha Score</h4>
+                    <div class="score-value" id="kapha-score">0</div>
+                </div>
+            </div>
+
+            <!-- RESULTS -->
+            <div class="results-section">
+                <h4>📊 Dosha Assessment Results</h4>
+                <div id="dosha-results">Please complete all parameters to view results...</div>
+            </div>
+
+            <!-- BUTTONS -->
+            <div class="nav-buttons">
+                <button class="btn btn-secondary" onclick="goToMain()">← Back to Main</button>
+                <button class="btn btn-primary" id="dosha-complete-btn" onclick="completeAssessment('dosha')" disabled>Complete Assessment</button>
+            </div>
+        </div>
+    </div>
+    <script src="js/dosha.js"></script>
+</body>
+</html>

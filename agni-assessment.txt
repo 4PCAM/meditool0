@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agni Dusti Assessment - 4-PCAM</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🔥 AGNI DUSTI ASSESSMENT</h1>
+            <p><strong>PILLAR 1 of 4-PCAM</strong></p>
+            <p>Digestive Fire Assessment</p>
+        </div>
+
+        <div class="content">
+            <div class="assessment-header">
+                <h3>🔥 PILLAR 1: AGNI DUSTI ASSESSMENT</h3>
+                <p>Based on types of Agni and classical lakṣaṇas from Charaka, Ashtanga Hridaya</p>
+            </div>
+
+            <div class="instructions">
+                <strong>📋 SCORING INSTRUCTIONS:</strong> Give 1 point for each symptom that matches a column (Viṣama/Tīkṣṇa/Manda/Sama). Click on the cell that best matches the patient's presentation for each parameter.
+            </div>
+
+            <table class="assessment-table">
+                <thead>
+                    <tr>
+                        <th style="width: 20%;">Parameter</th>
+                        <th style="width: 20%;">Viṣama Agni<br><small>(Vata Duṣṭi)</small></th>
+                        <th style="width: 20%;">Tīkṣṇa Agni<br><small>(Pitta Duṣṭi)</small></th>
+                        <th style="width: 20%;">Manda Agni<br><small>(Kapha Duṣṭi)</small></th>
+                        <th style="width: 20%;">Sama Agni<br><small>(Balanced)</small></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="parameter-cell">1. Hunger</td>
+                        <td class="clickable-cell vishama" data-pillar="agni" data-parameter="hunger" data-type="vishama">Irregular, unpredictable</td>
+                        <td class="clickable-cell tikshna" data-pillar="agni" data-parameter="hunger" data-type="tikshna">Excessive, frequent hunger</td>
+                        <td class="clickable-cell manda" data-pillar="agni" data-parameter="hunger" data-type="manda">Poor, delayed hunger</td>
+                        <td class="clickable-cell sama" data-pillar="agni" data-parameter="hunger" data-type="sama">Timely, appropriate</td>
+                    </tr>
+                    <tr>
+                        <td class="parameter-cell">2. Digestion Timing</td>
+                        <td class="clickable-cell vishama" data-pillar="agni" data-parameter="digestion" data-type="vishama">Sometimes fast, sometimes slow</td>
+                        <td class="clickable-cell tikshna" data-pillar="agni" data-parameter="digestion" data-type="tikshna">Very rapid digestion</td>
+                        <td class="clickable-cell manda" data-pillar="agni" data-parameter="digestion" data-type="manda">Very slow, sluggish</td>
+                        <td class="clickable-cell sama" data-pillar="agni" data-parameter="digestion" data-type="sama">Timely, comfortable</td>
+                    </tr>
+                    <tr>
+                        <td class="parameter-cell">3. Stool Formation</td>
+                        <td class="clickable-cell vishama" data-pillar="agni" data-parameter="stool" data-type="vishama">Alternate constipation & loose</td>
+                        <td class="clickable-cell tikshna" data-pillar="agni" data-parameter="stool" data-type="tikshna">Frequent, loose, burning</td>
+                        <td class="clickable-cell manda" data-pillar="agni" data-parameter="stool" data-type="manda">Constipated, sticky, mucoid</td>
+                        <td class="clickable-cell sama" data-pillar="agni" data-parameter="stool" data-type="sama">Well-formed, once/day</td>
+                    </tr>
+                    <tr>
+                        <td class="parameter-cell">4. Bloating/Discomfort</td>
+                        <td class="clickable-cell vishama" data-pillar="agni" data-parameter="bloating" data-type="vishama">Gas, gurgling, erratic</td>
+                        <td class="clickable-cell tikshna" data-pillar="agni" data-parameter="bloating" data-type="tikshna">Burning sensation</td>
+                        <td class="clickable-cell manda" data-pillar="agni" data-parameter="bloating" data-type="manda">Heaviness, lethargy</td>
+                        <td class="clickable-cell sama" data-pillar="agni" data-parameter="bloating" data-type="sama">No discomfort</td>
+                    </tr>
+                    <tr>
+                        <td class="parameter-cell">5. Appetite Response</td>
+                        <td class="clickable-cell vishama" data-pillar="agni" data-parameter="appetite" data-type="vishama">Becomes erratic</td>
+                        <td class="clickable-cell tikshna" data-pillar="agni" data-parameter="appetite" data-type="tikshna">Becomes hungrier</td>
+                        <td class="clickable-cell manda" data-pillar="agni" data-parameter="appetite" data-type="manda">Becomes duller</td>
+                        <td class="clickable-cell sama" data-pillar="agni" data-parameter="appetite" data-type="sama">Stays steady</td>
+                    </tr>
+                    <tr>
+                        <td class="parameter-cell">6. Tongue Coating</td>
+                        <td class="clickable-cell vishama" data-pillar="agni" data-parameter="tongue" data-type="vishama">Variable, sometimes dry</td>
+                        <td class="clickable-cell tikshna" data-pillar="agni" data-parameter="tongue" data-type="tikshna">Red, yellow tinge</td>
+                        <td class="clickable-cell manda" data-pillar="agni" data-parameter="tongue" data-type="manda">Thick white coating</td>
+                        <td class="clickable-cell sama" data-pillar="agni" data-parameter="tongue" data-type="sama">Clean</td>
+                    </tr>
+                    <tr>
+                        <td class="parameter-cell">7. After Food Sensation</td>
+                        <td class="clickable-cell vishama" data-pillar="agni" data-parameter="afterfood" data-type="vishama">Bloated or unsatisfied</td>
+                        <td class="clickable-cell tikshna" data-pillar="agni" data-parameter="afterfood" data-type="tikshna">Hungry again quickly</td>
+                        <td class="clickable-cell manda" data-pillar="agni" data-parameter="afterfood" data-type="manda">Heavy, sleepy</td>
+                        <td class="clickable-cell sama" data-pillar="agni" data-parameter="afterfood" data-type="sama">Light and content</td>
+                    </tr>
+                    <tr>
+                        <td class="parameter-cell">8. Weight Change</td>
+                        <td class="clickable-cell vishama" data-pillar="agni" data-parameter="weight" data-type="vishama">Unpredictable</td>
+                        <td class="clickable-cell tikshna" data-pillar="agni" data-parameter="weight" data-type="tikshna">Weight loss despite eating</td>
+                        <td class="clickable-cell manda" data-pillar="agni" data-parameter="weight" data-type="manda">Weight gain despite eating</td>
+                        <td class="clickable-cell sama" data-pillar="agni" data-parameter="weight" data-type="sama">Maintains weight</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="score-summary">
+                <div class="score-card">
+                    <h4>Viṣama Agni</h4>
+                    <div class="score-value" id="agni-vishama-score">0</div>
+                </div>
+                <div class="score-card">
+                    <h4>Tīkṣṇa Agni</h4>
+                    <div class="score-value" id="agni-tikshna-score">0</div>
+                </div>
+                <div class="score-card">
+                    <h4>Manda Agni</h4>
+                    <div class="score-value" id="agni-manda-score">0</div>
+                </div>
+                <div class="score-card">
+                    <h4>Sama Agni</h4>
+                    <div class="score-value" id="agni-sama-score">0</div>
+                </div>
+            </div>
+
+            <div class="results-section">
+                <h4>📊 Agni Assessment Results</h4>
+                <div id="agni-results">Complete the assessment to see results...</div>
+            </div>
+
+            <div class="nav-buttons">
+                <button class="btn btn-secondary" onclick="goToMain()">← Back to Main</button>
+                <button class="btn btn-primary" id="agni-complete-btn" onclick="completeAssessment('agni')" disabled>Complete Assessment</button>
+            </div>
+        </div>
+    </div>
+    <script src="js/agni.js"></script>
+</body>
+</html>
